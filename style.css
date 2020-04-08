@@ -20,6 +20,29 @@ main{
     padding-top: 1em;
 }
 
+#input-tarefa{
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 5px;
+    outline: 0;
+}
+
+#input-tarefa:focus{
+    border: none;
+    border-bottom: 1px solid #0000ff;
+    background: rgb(232, 240, 254);
+    padding-left: 5px;
+    outline: 0;
+}
+
+#cadastrar{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background: #4dd0e1;
+    font-weight: bold;
+}
+
 /******************************************* Estilo para o exibição das tarefas ****************************/
 
 .exibicao-tarefas{
